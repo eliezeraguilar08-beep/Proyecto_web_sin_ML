@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Portal</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+ <div class="bar">
+  <img class="logo" src="img/logo-horizontal-blanco-web.fw-455x128.png" alt="Logo">
+  <nav class="menu" id="menu" aria-label="Principal">
+   <a href="paginas/correo.html">CORREO INSTITUCIONAL</a>
+   <a href="paginas/biblioteca-online.html">BIBLIOTECA ONLINE</a>
+   <a href="paginas/blackboard.html">BLACKBOARD</a>
+   <a href="paginas/youtube.html">SENATI - YOUTUBE</a>
+   <a href="paginas/software-academico.html">SOFTWARE ACADÉMICO</a>
+  </nav>
+  <button class="burger" id="burger" aria-label="Menú" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+ </div>
+</header>
+
+<main>
+ <a class="card" href="paginas/correo.html">
+  <div class="art"><img src="img/correo-electronico-316x229.png" alt="CORREO INSTITUCIONAL"></div>
+  <div class="t">CORREO INSTITUCIONAL</div><div class="s">Acceda a su correo institucional</div>
+ </a>
+
+ <a class="card" href="paginas/biblioteca-online.html">
+  <div class="art"><img src="img/biblioteca-online-316x229.png" alt="BIBLIOTECA ONLINE"></div>
+  <div class="t">BIBLIOTECA ONLINE</div><div class="s">Materiales de las Carreras</div>
+ </a>
+
+ <a class="card" href="paginas/blackboard.html">
+  <div class="art"><img src="img/bb-316x227.png" alt="BLACKBOARD"></div>
+  <div class="t">BLACKBOARD</div><div class="s">Plataforma Aprendizaje en Línea</div>
+ </a>
+
+ <a class="card" href="paginas/disenos-curriculares.html">
+  <div class="art"><img src="img/contenidos-curriculares-316x229.png" alt="DISEÑOS CURRICULARES"></div>
+  <div class="t">DISEÑOS CURRICULARES</div><div class="s">Estructuras y Contenidos</div>
+ </a>
+
+ <a class="card" href="paginas/biblioteca-proyectos.html">
+  <div class="art"><img src="img/biblioteca-de-proyectos-316x229.png" alt="BIBLIOTECA DE PROYECTOS"></div>
+  <div class="t">BIBLIOTECA DE PROYECTOS</div><div class="s">Miles de proyectos</div>
+ </a>
+
+ <a class="card" href="paginas/complementacion-titulacion.html">
+  <div class="art"><img src="img/complementacion-y-diplomados-316x229.png" alt="COMPLEMENTACIÓN O TITULACIÓN"></div>
+  <div class="t">COMPLEMENTACIÓN O TITULACIÓN</div><div class="s">Título a Nombre de la Nación</div>
+ </a>
+
+ <a class="card" href="paginas/youtube.html">
+  <div class="art"><img src="img/Youtubr.png" alt="SENATI - YOUTUBE"></div>
+  <div class="t">SENATI - YOUTUBE</div><div class="s">Canal Oficial de SENATI</div>
+ </a>
+
+ <a class="card" href="paginas/software-academico.html">
+  <div class="art"><img src="img/software.png" alt="SOFTWARE ACADÉMICO"></div>
+  <div class="t">SOFTWARE ACADÉMICO</div><div class="s">Software por Familia Ocupacional</div>
+ </a>
+</main>
+
+<section class="campus">
+ <div class="campus-in">
+  <div class="video" id="video">
+   <!-- Para poner tu video, reemplaza este bloque por tu iframe de YouTube -->
+   <div class="video-ph">
+    <div class="video-title"><strong>Servicios</strong><span>Campus Online</span></div>
+    <button class="play" aria-label="Reproducir video"><svg viewBox="0 0 68 48" width="68" height="48"><rect width="68" height="48" rx="12" fill="#e53935"/><path d="M27 14l20 10-20 10z" fill="#fff"/></svg></button>
+    <div class="watch">Mirar en <b>YouTube</b></div>
+   </div>
+  </div>
+  <div class="campus-txt">
+   <h2>CAMPUS ONLINE</h2>
+   <p>Campus Online es un espacio que SENATI pone a disposición de sus estudiantes y 
+    colaboradores para acceder a las herramientas tecnológicas de aprendizaje. Estas 
+    herramientas incluyen el correo, las plataformas de aprendizaje en línea, las bibliotecas 
+    de contenido y el site de diseños curriculares. Encuéntralas disponibles las 24 horas del 
+    día, puedes acceder a ellas desde cualquier dispositivo móvil.</p>
+   <p>Si tienes alguna consulta o quieres hacernos llegar alguna sugerencia, escríbenos a soportevirtual@senati.pe.</p>
+  </div>
+ </div>
+</section>
+
+<footer class="pie">
+ <div class="pie-in">
+  <div class="col">
+   <h4>SEDE CENTRAL</h4>
+   <p>Av. Alfredo Mendiola #3520,<br>Independencia, Lima.</p>
+   <h4 class="sp">CONTACTO</h4>
+   <p>Email: soportevirtual@senati.pe<br>Línea gratuita: 0801-11100<br>Central Telefónica: (01) 5149700</p>
+  </div>
+  <div class="col">
+   <h4>ENLACES</h4>
+   <ul>
+    <li><a href="paginas/correo.html">Correo</a></li>
+    <li><a href="paginas/biblioteca-online.html">Biblioteca Online</a></li>
+    <li><a href="paginas/blackboard.html">Blackboard</a></li>
+    <li><a href="paginas/disenos-curriculares.html">Diseños Curriculares</a></li>
+    <li><a href="paginas/biblioteca-proyectos.html">Biblioteca de Proyectos</a></li>
+    <li><a href="paginas/complementacion-titulacion.html">Complementación o Titulación</a></li>
+    <li><a href="paginas/youtube.html">YouTube</a></li>
+    <li><a href="paginas/sinfo.html">Sinfo</a></li>
+   </ul>
+  </div>
+  <form class="col form" action="mailto:soportevirtual@senati.pe" method="post" enctype="text/plain">
+   <input type="text" name="Nombre" placeholder="Nombre y Apellidos*" required>
+   <input type="email" name="Email" placeholder="Email*" required>
+   <textarea name="Consulta" placeholder="Escriba su consulta" rows="4"></textarea>
+   <button type="submit">CONTÁCTENOS</button>
+  </form>
+ </div>
+</footer>
+<script>
+ var b=document.getElementById('burger'),m=document.getElementById('menu');
+ b.addEventListener('click',function(){var o=m.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+</script>
+</body>
+</html>
